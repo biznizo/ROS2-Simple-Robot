@@ -22,6 +22,7 @@ entry_points={
         'console_scripts': [
                 'pembicara_rpi = robot_q.pembicara:main',
                 'pendengar_rpi = robot_q.pendengar:main',
+                'cmdLed_rpi = robot_q.led_pendengar:main',
         ],
 },
 )
