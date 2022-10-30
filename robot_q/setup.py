@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
 entry_points={
         'console_scripts': [
-                'pembicara = robot_q.pembicara:main',
-                'pendengar = robot_q.pendengar:main',
+                'pembicara_rpi = robot_q.pembicara:main',
+                'pendengar_rpi = robot_q.pendengar:main',
         ],
 },
 )

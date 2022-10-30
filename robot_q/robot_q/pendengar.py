@@ -7,7 +7,7 @@ from std_msgs.msg import String
 class MinimalSubscriber(Node):
 
     def __init__(self):
-        super().__init__('simple_pendengar')
+        super().__init__('simple_pendengar_raspi')
         self.subscription = self.create_subscription(
             String,
             '/topik_1',
